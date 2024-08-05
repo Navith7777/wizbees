@@ -25,12 +25,38 @@
     <link rel="stylesheet" href="assets/css/animated.css">
     <link rel="stylesheet" href="assets/css/owl.css">
 <style>
+  /* Default styling for .aboutt */
+/* Default styling for .aboutt */
+
+
+/* Mobile devices (max-width: 767px) */
+@media (max-width: 767px) {
   img.aboutt {
-    margin: auto;
-    /* flex: auto; */
-    width: auto;
-    height: auto;
+    width: -webkit-fill-available;
+  }
 }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  img.aboutt {
+    width: 75%;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  img.aboutt {
+    width: 50%;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  img.aboutt {
+    width: 40%;
+  }
+}
+
 
 
 
