@@ -26,10 +26,44 @@
     <link rel="stylesheet" href="assets/css/owl.css">
 <style>
     img.aboutt {
-        width: 645px;
-        height: 425px;
+        width: -webkit-fill-available;
     }
- 
+    /* Media query for small devices (mobile phones) */
+@media only screen and (max-width: 600px) {
+    .img.aboutt {
+        width: 100%;
+        height: auto;
+        /* Add any other mobile-specific styles here */
+    }
+}
+
+/* Media query for medium devices (tablets) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .img.aboutt {
+        width: 100%;
+        height: auto;
+        /* Add any other tablet-specific styles here */
+    }
+}
+
+/* Media query for large devices (laptops/desktops) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .img.aboutt {
+        width: 100%;
+        height: auto;
+        /* Add any other laptop-specific styles here */
+    }
+}
+
+/* Media query for extra large devices (large desktops) */
+@media only screen and (min-width: 1025px) {
+    .img.aboutt {
+        width: 100%;
+        height: auto;
+        /* Add any other large desktop-specific styles here */
+    }
+}
+    
 
 
 
